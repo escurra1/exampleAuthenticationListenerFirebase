@@ -9,13 +9,15 @@ class UserModel{
     var number: String!
     var email: String!
     var password: String!
+    var address: String!
     
-    init(id: String!, name: String!, number: String!, email: String!, password: String!){
+    init(id: String!, name: String!, number: String!, email: String!, password: String!, address: String!){
         self.id = id
         self.name = name
         self.number = number
         self.email = email
         self.password = password
+        self.address = address
     }
     
 }
