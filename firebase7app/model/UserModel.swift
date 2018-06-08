@@ -1,10 +1,5 @@
-//
-//  UserModel.swift
-//  firebase7app
-//
-//  Created by mescurra on 4/29/18.
-//  Copyright © 2018 mescurra. All rights reserved.
-//
+
+//Comentarys in the class UserModel
 
 import Foundation
 
