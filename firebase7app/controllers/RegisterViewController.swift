@@ -1,10 +1,3 @@
-//
-//  RegisterViewController.swift
-//  firebase7app
-//
-//  Created by mescurra on 4/29/18.
-//  Copyright © 2018 mescurra. All rights reserved.
-//
 
 import UIKit
 import Firebase
@@ -29,10 +22,8 @@ class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
-        self.placeHolderTextField()
+        placeHolderTextField()
         refUsers = Database.database().reference().child("usuarios")
         refUsers.observe(DataEventType.value, with: {(snapshot) in
             if snapshot.childrenCount>0{
